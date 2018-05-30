@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XLk-3d-kOx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="c2F-AH-RF4">
+            <objects>
+                <viewController id="XLk-3d-kOx" customClass="TearsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="daY-Qd-dcC"/>
+                        <viewControllerLayoutGuide type="bottom" id="v8T-ce-hil"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ORl-Fc-YaH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9V6-fS-Y3k">
+                                <rect key="frame" x="20" y="120" width="560" height="336"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9V6-fS-Y3k" secondAttribute="trailing" constant="20" id="JsR-qh-vfz"/>
+                            <constraint firstItem="v8T-ce-hil" firstAttribute="top" secondItem="9V6-fS-Y3k" secondAttribute="bottom" constant="144" id="PQu-T0-8qB"/>
+                            <constraint firstItem="9V6-fS-Y3k" firstAttribute="top" secondItem="daY-Qd-dcC" secondAttribute="bottom" constant="100" id="ZvH-RC-ZQY"/>
+                            <constraint firstItem="9V6-fS-Y3k" firstAttribute="leading" secondItem="ORl-Fc-YaH" secondAttribute="leading" constant="20" id="odo-FO-9sz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="xh7-8b-zJE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNf-HP-kmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-432" y="1058"/>
+        </scene>
+    </scenes>
+</document>

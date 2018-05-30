@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vY4-sQ-Fbs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="c2F-AH-RF4">
+            <objects>
+                <viewController id="XLk-3d-kOx" customClass="TearsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="daY-Qd-dcC"/>
+                        <viewControllerLayoutGuide type="bottom" id="v8T-ce-hil"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ORl-Fc-YaH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9V6-fS-Y3k">
+                                <rect key="frame" x="20" y="120" width="335" height="403"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9V6-fS-Y3k" secondAttribute="trailing" constant="20" id="JsR-qh-vfz"/>
+                            <constraint firstItem="v8T-ce-hil" firstAttribute="top" secondItem="9V6-fS-Y3k" secondAttribute="bottom" constant="144" id="PQu-T0-8qB"/>
+                            <constraint firstItem="9V6-fS-Y3k" firstAttribute="top" secondItem="daY-Qd-dcC" secondAttribute="bottom" constant="100" id="ZvH-RC-ZQY"/>
+                            <constraint firstItem="9V6-fS-Y3k" firstAttribute="leading" secondItem="ORl-Fc-YaH" secondAttribute="leading" constant="20" id="odo-FO-9sz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="xh7-8b-zJE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNf-HP-kmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-432" y="1058"/>
+        </scene>
+        <!--Enter View Controller-->
+        <scene sceneID="2C9-No-ILm">
+            <objects>
+                <viewController id="vY4-sQ-Fbs" customClass="EnterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ixS-yI-MX1"/>
+                        <viewControllerLayoutGuide type="bottom" id="T5H-Zk-R55"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qwd-I8-ElN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUB-Tj-er8">
+                                <rect key="frame" x="80" y="170" width="215" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="30E-cI-Qef"/>
+                                    <constraint firstAttribute="height" constant="100" id="NaE-e0-d2W"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="念城">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="45" name="STLibianSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="30E-cI-Qef"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HUB-Tj-er8" firstAttribute="leading" secondItem="Qwd-I8-ElN" secondAttribute="leading" constant="30" id="1By-If-FvH"/>
+                            <constraint firstItem="HUB-Tj-er8" firstAttribute="top" secondItem="ixS-yI-MX1" secondAttribute="bottom" constant="200" id="OtG-A5-Fqc"/>
+                            <constraint firstItem="HUB-Tj-er8" firstAttribute="top" secondItem="ixS-yI-MX1" secondAttribute="bottom" constant="150" id="Wgb-Wy-YZo"/>
+                            <constraint firstItem="HUB-Tj-er8" firstAttribute="leading" secondItem="Qwd-I8-ElN" secondAttribute="leading" constant="80" id="neh-Zi-Ef8"/>
+                            <constraint firstAttribute="trailing" secondItem="HUB-Tj-er8" secondAttribute="trailing" constant="30" id="w3c-6A-lAP"/>
+                            <constraint firstAttribute="trailing" secondItem="HUB-Tj-er8" secondAttribute="trailing" constant="80" id="zSS-Hy-vBH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1By-If-FvH"/>
+                                <exclude reference="OtG-A5-Fqc"/>
+                                <exclude reference="w3c-6A-lAP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="HUB-Tj-er8" id="quN-Do-fUb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jvv-UD-rWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="483"/>
+        </scene>
+    </scenes>
+</document>

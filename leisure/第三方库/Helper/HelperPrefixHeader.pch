@@ -1,0 +1,41 @@
+//
+//  HelperPrefixHeader.pch
+//  HelperDemo
+//
+//  Created by wanghailong on 16/1/15.
+//  Copyright © 2016年 HailongExcellency. All rights reserved.
+//
+
+#ifndef HelperPrefixHeader_pch
+#define HelperPrefixHeader_pch
+
+#import <BmobSDK/Bmob.h>
+#import "UIImage+ImageEffects.h"
+#import "Factory.h"
+#import "HelperDefine.h"
+#import "UIView+Addition.h"
+#import "BaseViewController.h"
+#import "UIImageView+AFNetworking.h"
+#import "AppHeader.h"
+#import "URLHeader.h"
+#import "IMPHeader.h"
+#import "NSString+Hashing.h"
+#import "SDCycleScrollView.h"
+#import "STKAudioPlayer.h"
+
+#import "MBProgressHUD.h"
+#import "JSONModel.h"
+
+#import "AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "JHRefresh.h"
+
+
+#import "LXSMDModel.h"
+#import "LXSMModel.h"
+#import "LXSMDTableViewCell.h"
+#import "HSZYTableViewCell.h"
+
+#import "STKAudioPlayerManager.h"
+
+#endif /* HelperPrefixHeader_pch */
